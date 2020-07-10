@@ -1,0 +1,634 @@
+[
+    {   
+        "id":1,
+        "naziv":"Pepsi",
+        "kolicina":0.33,
+        "kategorija":{
+            "vrsta":"Sok",
+            "idKat":2
+        },
+        "slika":{
+            "url":"files/images/pepsi.png",
+            "alt":"Kola"
+        },
+        "cene":{
+            "trenutna":40,
+            "stara":60
+            },
+        "popust":20,
+        "novo":false,
+        "akcija":true,
+        "opis":"Gazirano osvežavajuće piće"
+    },
+    {
+        "id":2,
+        "naziv":"Nikšićko pivo",
+        "kolicina":0.33,
+        "kategorija":{
+            "vrsta":"Pivo",
+            "idKat":3
+        },
+        "slika":{
+            "url":"files/images/niksicko.png",
+            "alt":"Pivo"
+        },
+        "cene":{
+            "trenutna":70,
+            "stara":100
+            },
+        "popust":10,
+        "novo":false,
+        "akcija":true,
+        "opis":"Alkoholno piće sa 5% alkohola"
+    },
+    
+    {   
+        "id":3,
+        "naziv":"Jana ice tea",
+        "kolicina":1.5,
+        "kategorija":{
+            "vrsta":"Sok",
+            "idKat":2
+        },
+        "slika":{
+            "url":"files/images/jana.jpg",
+            "alt":"Ice tea"
+        },
+        "cene":{
+            "trenutna":100,
+            "stara":150
+            },
+        "popust":25,
+        "novo":false,
+        "akcija":true,
+        "opis":"Osvežavajući ledeni caj"
+    },
+    {
+        "id":4,
+        "naziv":"Fanta Sokata",
+        "kolicina":2,
+        "kategorija":{
+            "vrsta":"Sok",
+            "idKat":2
+        },
+        "slika":{
+            "url":"files/images/sokata1.png",
+            "alt":"Fanta"
+        },
+        "cene":{
+            "trenutna":100,
+            "stara":130
+            },
+        "popust":10,
+        "novo":false,
+        "akcija":true,
+        "opis":"Gazirano osvežavajuće piće sa ukusom limuna"
+    },
+    {
+        "id":5,
+        "naziv":"Ivi",
+        "kolicina":0.4,
+        "kategorija":{
+            "vrsta":"Sok",
+            "idKat":2
+        },
+        "slika":{
+            "url":"files/images/ivi.jpg",
+            "alt":"Ivi"
+        },
+        "cene":{
+            "trenutna":35,
+            "stara":50
+            },
+        "popust":10,
+        "novo":false,
+        "akcija":true,
+        "opis":"Gazirano osvežavajuće piće sa ukusom breskve"
+    },
+    {
+        "id":6,
+        "naziv":"Jose cuervo",
+        "kolicina":0.7,
+        "kategorija":{
+            "vrsta":"Žestoko alkoholno piće",
+            "idKat":1
+        },
+        "slika":{
+            "url":"files/images/tekila2.png",
+            "alt":"žestina"
+        },
+        "cene":{
+            "trenutna":2200,
+            "stara":2200
+            },
+        "popust":0,
+        "novo":true,
+        "akcija":false,
+        "opis":"Žestoko alkoholno piće"
+    },
+    {
+        "id":7,
+        "naziv":"Absenthe",
+        "kolicina":1,
+        "kategorija":{
+            "vrsta":"Žestoko alkoholno piće",
+            "idKat":1
+        },
+        "slika":{
+            "url":"files/images/absinth2.png",
+            "alt":"žestina"
+        },
+        "cene":{
+            "trenutna":2800,
+            "stara":0
+            },
+        "popust":0,
+        "novo":true,
+        "akcija":false,
+        "opis":"Žestoko alkoholno piće"
+    },
+    {
+        "id":8,
+        "naziv":"Vinjak V",
+        "kolicina":1,
+        "kategorija":{
+            "vrsta":"Žestoko alkoholno piće",
+            "idKat":1
+        },
+        "slika":{
+            "url":"files/images/vinjak52.png",
+            "alt":"žestina"
+        },
+        "cene":{
+            "trenutna":3000,
+            "stara":0
+            },
+        "popust":0,
+        "novo":true,
+        "akcija":false,
+        "opis":"Žestoko alkoholno piće srpskog porekla"
+    },
+    {
+        "id":9,
+        "naziv":"Vinjak X",
+        "kolicina":1,
+        "kategorija":{
+            "vrsta":"Žestoko alkoholno piće",
+            "idKat":1
+        },
+        "slika":{
+            "url":"files/images/vinjak102.png",
+            "alt":"žestina"
+        },
+        "cene":{
+            "trenutna":5800,
+            "stara":0
+            },
+        "popust":0,
+        "novo":true,
+        "akcija":false,
+        "opis":"Žestoko alkoholno piće srpskog porekla"
+    },
+    {
+        "id":10,
+        "naziv":"Johny Walker",
+        "kolicina":1,
+        "kategorija":{
+            "vrsta":"Žestoko alkoholno piće",
+            "idKat":1
+        },
+        "slika":{
+            "url":"files/images/walker2.jpg",
+            "alt":"žestina"
+        },
+        "cene":{
+            "trenutna":6200,
+            "stara":0
+            },
+        "popust":0,
+        "novo":true,
+        "akcija":false,
+        "opis":"Black label"
+    },
+    {
+        "id":11,
+        "naziv":"Vodka atlantik",
+        "kolicina":1,
+        "kategorija":{
+            "vrsta":"Žestoko alkoholno piće",
+            "idKat":1
+        },
+        "slika":{
+            "url":"files/images/atlantik3.png",
+            "alt":"žestina"
+        },
+        "cene":{
+            "trenutna":1200,
+            "stara":0
+            },
+        "popust":0,
+        "novo":false,
+        "akcija":false,
+        "opis":"Vodka sa 40% alkohola"
+    },
+    {
+        "id":12,
+        "naziv":"Gorki list",
+        "kolicina":1,
+        "kategorija":{
+            "vrsta":"Žestoko alkoholno piće",
+            "idKat":1
+        },
+        "slika":{
+            "url":"files/images/gorkilist2.png",
+            "alt":"žestina"
+        },
+        "cene":{
+            "trenutna":1500,
+            "stara":0
+            },
+        "popust":0,
+        "novo":false,
+        "akcija":false,
+        "opis":"piće sa 28% alkohola"
+    },
+    {
+        "id":13,
+        "naziv":"Rubin vinjak",
+        "kolicina":1,
+        "kategorija":{
+            "vrsta":"Žestoko alkoholno piće",
+            "idKat":1
+        },
+        "slika":{
+            "url":"files/images/vinjak.png",
+            "alt":"žestina"
+        },
+        "cene":{
+            "trenutna":700,
+            "stara":0
+            },
+        "popust":0,
+        "novo":false,
+        "akcija":false,
+        "opis":"Vinjak classic"
+    },
+    {
+        "id":14,
+        "naziv":"Smirnof vodka",
+        "kolicina":1,
+        "kategorija":{
+            "vrsta":"Žestoko alkoholno piće",
+            "idKat":1
+        },
+        "slika":{
+            "url":"files/images/smirnof.png",
+            "alt":"žestina"
+        },
+        "cene":{
+            "trenutna":2800,
+            "stara":0
+            },
+        "popust":0,
+        "novo":false,
+        "akcija":false,
+        "opis":"Vodka lux"
+    },
+    {
+        "id":15,
+        "naziv":"Johny Walker Red",
+        "kolicina":1,
+        "kategorija":{
+            "vrsta":"Žestoko alkoholno piće",
+            "idKat":1
+        },
+        "slika":{
+            "url":"files/images/redlabel.png",
+            "alt":"žestina"
+        },
+        "cene":{
+            "trenutna":6200,
+            "stara":0
+            },
+        "popust":0,
+        "novo":false,
+        "akcija":false,
+        "opis":"Red Label"
+    },
+    {
+        "id":16,
+        "naziv":"Jack Daniels",
+        "kolicina":1,
+        "kategorija":{
+            "vrsta":"Žestoko alkoholno piće",
+            "idKat":1
+        },
+        "slika":{
+            "url":"files/images/jack.png",
+            "alt":"žestina"
+        },
+        "cene":{
+            "trenutna":6600,
+            "stara":0
+            },
+        "popust":0,
+        "novo":false,
+        "akcija":false,
+        "opis":"Luxury whisky"
+    },
+    {
+        "id":17,
+        "naziv":"Heineken",
+        "kolicina":0.4,
+        "kategorija":{
+            "vrsta":"Pivo",
+            "idKat":3
+        },
+        "slika":{
+            "url":"files/images/Heineken.jpg",
+            "alt":"pivo"
+        },
+        "cene":{
+            "trenutna":110,
+            "stara":0
+            },
+        "popust":0,
+        "novo":false,
+        "akcija":false,
+        "opis":"Svetlo pivo"
+    },
+    {
+        "id":18,
+        "naziv":"Coca cola",
+        "kolicina":2,
+        "kategorija":{
+            "vrsta":"Sok",
+            "idKat":2
+        },
+        "slika":{
+            "url":"files/images/cocacola.png",
+            "alt":"Kola"
+        },
+        "cene":{
+            "trenutna":120,
+            "stara":0
+            },
+        "popust":0,
+        "novo":false,
+        "akcija":false,
+        "opis":"Osvežavajuće piće"
+    },
+    {
+        "id":19,
+        "naziv":"Fanta",
+        "kolicina":2,
+        "kategorija":{
+            "vrsta":"Sok",
+            "idKat":2
+        },
+        "slika":{
+            "url":"files/images/fanta.png",
+            "alt":"Fanta"
+        },
+        "cene":{
+            "trenutna":120,
+            "stara":0
+            },
+        "popust":0,
+        "novo":false,
+        "akcija":false,
+        "opis":"Sa ukusom narandže"
+    },
+    {
+        "id":20,
+        "naziv":"Nectar jabuka",
+        "kolicina":1.5,
+        "kategorija":{
+            "vrsta":"Sok",
+            "idKat":2
+        },
+        "slika":{
+            "url":"files/images/nectar.png",
+            "alt":"Jabuka"
+        },
+        "cene":{
+            "trenutna":90,
+            "stara":0
+            },
+        "popust":0,
+        "novo":false,
+        "akcija":false,
+        "opis":"Negazirani sok sa ukusom jabuke"
+    },
+    {
+        "id":21,
+        "naziv":"Zaječarsko pivo",
+        "kolicina":0.33,
+        "kategorija":{
+            "vrsta":"Pivo",
+            "idKat":3
+        },
+        "slika":{
+            "url":"files/images/zajecarsko.png",
+            "alt":"Pivo"
+        },
+        "cene":{
+            "trenutna":70,
+            "stara":0
+            },
+        "popust":0,
+        "novo":false,
+        "akcija":false,
+        "opis":"Pivo iz Zaječara"
+    },
+    {
+        "id":22,
+        "naziv":"Valjevsko pivo",
+        "kolicina":0.33,
+        "kategorija":{
+            "vrsta":"Pivo",
+            "idKat":3
+        },
+        "slika":{
+            "url":"files/images/valjevsko2.png",
+            "alt":"Valjevsko"
+        },
+        "cene":{
+            "trenutna":60,
+            "stara":0
+            },
+        "popust":0,
+        "novo":false,
+        "akcija":false,
+        "opis":"Svetlo valjevsko pivo"
+    },
+    {
+        "id":23,
+        "naziv":"Tuborg",
+        "kolicina":0.5,
+        "kategorija":{
+            "vrsta":"Pivo",
+            "idKat":3
+        },
+        "slika":{
+            "url":"files/images/tuborg.png",
+            "alt":"Tuborg"
+        },
+        "cene":{
+            "trenutna":90,
+            "stara":100
+            },
+        "popust":10,
+        "novo":false,
+        "akcija":false,
+        "opis":"Svetlo pivo tuborg"
+    },
+    {
+        "id":24,
+        "naziv":"Ždrepčeva Krv",
+        "kolicina":1,
+        "kategorija":{
+            "vrsta":"Vino",
+            "idKat":4
+        },
+        "slika":{
+            "url":"files/images/zdrepcevakrv.png",
+            "alt":"Zkrv"
+        },
+        "cene":{
+            "trenutna":256,
+            "stara":0
+            },
+        "popust":0,
+        "novo":false,
+        "akcija":false,
+        "opis":"Crno vino"
+    },
+    {
+        "id":25,
+        "naziv":"Vranac",
+        "kolicina":1,
+        "kategorija":{
+            "vrsta":"Vino",
+            "idKat":4
+        },
+        "slika":{
+            "url":"files/images/vranac.png",
+            "alt":"Vranac"
+        },
+        "cene":{
+            "trenutna":366,
+            "stara":0
+            },
+        "popust":0,
+        "novo":true,
+        "akcija":false,
+        "opis":"Crno vino Vranac"
+    },
+    {
+        "id":26,
+        "naziv":"Medveđa Krv",
+        "kolicina":1,
+        "kategorija":{
+            "vrsta":"Vino",
+            "idKat":4
+        },
+        "slika":{
+            "url":"files/images/medvedjakrv.png",
+            "alt":"Mkrv"
+        },
+        "cene":{
+            "trenutna":288,
+            "stara":0
+            },
+        "popust":0,
+        "novo":false,
+        "akcija":false,
+        "opis":"Crno vino"
+    },
+    {
+        "id":27,
+        "naziv":"Smederevka tikves",
+        "kolicina":1,
+        "kategorija":{
+            "vrsta":"Vino",
+            "idKat":4
+        },
+        "slika":{
+            "url":"files/images/smederevka.png",
+            "alt":"belovino"
+        },
+        "cene":{
+            "trenutna":400,
+            "stara":0
+            },
+        "popust":0,
+        "novo":true,
+        "akcija":false,
+        "opis":"Belo vino"
+    },
+    {
+        "id":28,
+        "naziv":"Knjaz Miloš",
+        "kolicina":1.5,
+        "kategorija":{
+            "vrsta":"Voda",
+            "idKat":5
+        },
+        "slika":{
+            "url":"files/images/knjaz.png",
+            "alt":"Kisale"
+        },
+        "cene":{
+            "trenutna":45,
+            "stara":0
+            },
+        "popust":0,
+        "novo":true,
+        "akcija":false,
+        "opis":"Kisela voda"
+    },
+    {
+        "id":29,
+        "naziv":"Voda Rosa",
+        "kolicina":2,
+        "kategorija":{
+            "vrsta":"Voda",
+            "idKat":5
+        },
+        "slika":{
+            "url":"files/images/rosa.png",
+            "alt":"rosa"
+        },
+        "cene":{
+            "trenutna":52,
+            "stara":0
+            },
+        "popust":0,
+        "novo":false,
+        "akcija":false,
+        "opis":"Negazirana voda"
+    },
+    {
+        "id":30,
+        "naziv":"Schweppes bitter lemon",
+        "kolicina":0.5,
+        "kategorija":{
+            "vrsta":"Sok",
+            "idKat":2
+        },
+        "slika":{
+            "url":"files/images/sveps.png",
+            "alt":"Sveps"
+        },
+        "cene":{
+            "trenutna":60,
+            "stara":80
+            },
+        "popust":20,
+        "novo":true,
+        "akcija":false,
+        "opis":"Osvežavajuće piće"
+    }
+    
+]

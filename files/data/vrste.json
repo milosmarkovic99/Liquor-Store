@@ -1,0 +1,43 @@
+[
+
+    {
+
+        "id" : 1,
+        "naziv" : "Žestina",
+        "idKat" : 1
+
+    },
+
+    {
+
+        "id" : 2,
+        "naziv" : "Sokovi",
+        "idKat" : 2
+
+    },
+
+    {
+
+        "id" : 3,
+        "naziv" : "Piva",
+        "idKat" : 3
+
+    },
+
+    {
+
+        "id" : 4,
+        "naziv" : "Vina",
+        "idKat" : 4
+
+    },
+
+    {
+
+        "id" : 5,
+        "naziv" : "Voda",
+        "idKat" : 5
+
+    }
+
+]
