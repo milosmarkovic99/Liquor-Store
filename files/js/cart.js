@@ -103,7 +103,7 @@ function ispisiDivove(proizvodi) {
 
     function ispisiPp(p) {
        return  `<div class="upisivanje">
-       <img class="pro" src="/${p.slika.url}" alt="${p.slika.alt}"/>
+       <img class="pro" src="${p.slika.url}" alt="${p.slika.alt}"/>
        <p>${p.naziv}</p>
        <p>${p.cene.trenutna} rsd</p>
        <p>${p.kolicina}</p>
